@@ -1,0 +1,157 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (C) 2021 The Android Open Source Project.
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.dogglers"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="21"
+23-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="30" />
+24-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="INSTALL_GRANT_RUNTIME_PERMISSIONS" />
+26-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:20:5-73
+26-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:20:22-70
+27    <uses-permission android:name="android.permission.REORDER_TASKS" />
+27-->[androidx.fragment:fragment-testing:1.3.3] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\048ea89a4cf76aec960e2da8176b42fa\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:25:5-72
+27-->[androidx.fragment:fragment-testing:1.3.3] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\048ea89a4cf76aec960e2da8176b42fa\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:25:22-69
+28
+29    <application
+29-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:22:5-51:19
+30        android:allowBackup="true"
+30-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:23:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.3.2] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\757d34ac79418c4db35d5e9fcc0c9e11\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:24:9-43
+34        android:label="@string/app_name"
+34-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:25:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:26:9-54
+36        android:supportsRtl="true"
+36-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:27:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.Dogglers" >
+38-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:28:9-46
+39        <activity android:name="com.example.dogglers.VerticalListActivity" >
+39-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:29:9-33:20
+39-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:29:19-55
+40            <meta-data
+40-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:30:13-32:49
+41                android:name="android.support.PARENT_ACTIVITY"
+41-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:31:17-63
+42                android:value=".MainActivity" />
+42-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:32:17-46
+43        </activity>
+44        <activity android:name="com.example.dogglers.HorizontalListActivity" >
+44-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:34:9-38:20
+44-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:34:19-57
+45            <meta-data
+45-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:30:13-32:49
+46                android:name="android.support.PARENT_ACTIVITY"
+46-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:31:17-63
+47                android:value=".MainActivity" />
+47-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:32:17-46
+48        </activity>
+49        <activity android:name="com.example.dogglers.GridListActivity" >
+49-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:39:9-43:20
+49-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:39:19-51
+50            <meta-data
+50-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:30:13-32:49
+51                android:name="android.support.PARENT_ACTIVITY"
+51-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:31:17-63
+52                android:value=".MainActivity" />
+52-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:32:17-46
+53        </activity>
+54        <activity android:name="com.example.dogglers.MainActivity" >
+54-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:44:9-50:20
+54-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:44:19-47
+55            <intent-filter>
+55-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:45:13-49:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:46:17-69
+56-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:46:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:48:17-77
+58-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:48:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->[androidx.fragment:fragment-testing:1.3.3] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\048ea89a4cf76aec960e2da8176b42fa\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:28:9-37:20
+62            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+62-->[androidx.fragment:fragment-testing:1.3.3] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\048ea89a4cf76aec960e2da8176b42fa\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:29:13-96
+63            android:exported="true"
+63-->[androidx.fragment:fragment-testing:1.3.3] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\048ea89a4cf76aec960e2da8176b42fa\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:30:13-36
+64            android:multiprocess="true"
+64-->[androidx.fragment:fragment-testing:1.3.3] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\048ea89a4cf76aec960e2da8176b42fa\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:31:13-40
+65            android:taskAffinity=""
+65-->[androidx.fragment:fragment-testing:1.3.3] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\048ea89a4cf76aec960e2da8176b42fa\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:32:13-36
+66            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+66-->[androidx.fragment:fragment-testing:1.3.3] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\048ea89a4cf76aec960e2da8176b42fa\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:33:13-78
+67            <intent-filter>
+67-->[androidx.fragment:fragment-testing:1.3.3] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\048ea89a4cf76aec960e2da8176b42fa\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:46:17-69
+68-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:46:25-66
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->[androidx.test:core:1.3.0] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\7f06875fb8c97a663cfa8095659aae10\transformed\jetified-core-1.3.0\AndroidManifest.xml:27:9-33:20
+72            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+72-->[androidx.test:core:1.3.0] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\7f06875fb8c97a663cfa8095659aae10\transformed\jetified-core-1.3.0\AndroidManifest.xml:28:13-99
+73            android:theme="@android:style/Theme" >
+73-->[androidx.test:core:1.3.0] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\7f06875fb8c97a663cfa8095659aae10\transformed\jetified-core-1.3.0\AndroidManifest.xml:29:13-49
+74            <intent-filter>
+74-->[androidx.fragment:fragment-testing:1.3.3] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\048ea89a4cf76aec960e2da8176b42fa\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:46:17-69
+75-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:46:25-66
+76            </intent-filter>
+77        </activity>
+78        <activity
+78-->[androidx.test:core:1.3.0] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\7f06875fb8c97a663cfa8095659aae10\transformed\jetified-core-1.3.0\AndroidManifest.xml:34:9-40:20
+79            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+79-->[androidx.test:core:1.3.0] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\7f06875fb8c97a663cfa8095659aae10\transformed\jetified-core-1.3.0\AndroidManifest.xml:35:13-95
+80            android:theme="@android:style/Theme" >
+80-->[androidx.test:core:1.3.0] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\7f06875fb8c97a663cfa8095659aae10\transformed\jetified-core-1.3.0\AndroidManifest.xml:36:13-49
+81            <intent-filter>
+81-->[androidx.fragment:fragment-testing:1.3.3] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\048ea89a4cf76aec960e2da8176b42fa\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+82                <action android:name="android.intent.action.MAIN" />
+82-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:46:17-69
+82-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:46:25-66
+83            </intent-filter>
+84        </activity>
+85        <activity
+85-->[androidx.test:core:1.3.0] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\7f06875fb8c97a663cfa8095659aae10\transformed\jetified-core-1.3.0\AndroidManifest.xml:41:9-47:20
+86            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+86-->[androidx.test:core:1.3.0] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\7f06875fb8c97a663cfa8095659aae10\transformed\jetified-core-1.3.0\AndroidManifest.xml:42:13-103
+87            android:theme="@android:style/Theme.Dialog" >
+87-->[androidx.test:core:1.3.0] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\7f06875fb8c97a663cfa8095659aae10\transformed\jetified-core-1.3.0\AndroidManifest.xml:43:13-56
+88            <intent-filter>
+88-->[androidx.fragment:fragment-testing:1.3.3] D:\AndroidStudioProjects\Calculatorapp\caches\transforms-3\048ea89a4cf76aec960e2da8176b42fa\transformed\jetified-fragment-testing-1.3.3\AndroidManifest.xml:34:13-36:29
+89                <action android:name="android.intent.action.MAIN" />
+89-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:46:17-69
+89-->D:\AndroidStudioProjects\android-basics-kotlin-dogglers-app-main\app\src\main\AndroidManifest.xml:46:25-66
+90            </intent-filter>
+91        </activity>
+92    </application>
+93
+94</manifest>
